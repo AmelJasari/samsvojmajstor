@@ -1,0 +1,8 @@
+16:04:31.927 [main] INFO  resources.base - Klik na submit
+16:04:32.909 [main] INFO  resources.base - Verifikovano dugme Odjava
+16:08:26.493 [main] INFO  resources.base - driver is initialized
+16:08:31.391 [main] INFO  resources.base - Pokrenuta stranica
+16:08:33.727 [main] INFO  resources.base - Prijava link je kliknut
+16:08:33.781 [main] INFO  resources.base - Unet je user
+16:08:33.850 [main] INFO  resources.base - Unet je password
+16:08:38.961 [main] INFO  resources.base - Klik na submit
