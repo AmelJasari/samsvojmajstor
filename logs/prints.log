@@ -1,6 +1,9 @@
-16:08:39.124 [main] INFO  resources.base - Verifikovano dugme Odjava
-16:21:03.519 [TestNG] INFO  resources.base - driver is initialized
-16:21:10.519 [TestNG] INFO  resources.base - Pokrenuta stranica
-16:21:17.491 [TestNG] INFO  resources.base - Prijava link je kliknut
-16:21:17.560 [TestNG] INFO  resources.base - Unet je user
-16:21:17.760 [TestNG] INFO  resources.base - Unet je password
+22:21:48.705 [main] INFO  resources.base - Unet je user
+22:21:48.805 [main] INFO  resources.base - Unet je password
+22:21:49.898 [main] INFO  resources.base - Klik na submit
+22:22:01.792 [main] INFO  resources.base - driver is initialized
+22:22:03.867 [main] INFO  resources.base - Pokrenuta stranica
+22:22:05.360 [main] INFO  resources.base - Prijava link je kliknut
+22:22:05.475 [main] INFO  resources.base - Unet je user
+22:22:05.602 [main] INFO  resources.base - Unet je password
+22:22:06.088 [main] INFO  resources.base - Klik na submit

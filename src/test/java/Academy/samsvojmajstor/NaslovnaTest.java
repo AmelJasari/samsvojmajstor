@@ -6,12 +6,13 @@ import java.io.IOException;import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
+
 import pageObjects.LoginObjekti;
 import pageObjects.NaslovnaObjekti;
 import resourceTC.BaseTC;
@@ -24,12 +25,13 @@ public class NaslovnaTest extends base {
 	//na primer inicijalizovali smo driver
 	//drugi nacin je da se kreira object iz te klase
 	
-	NaslovnaObjekti naslovna;
-	LoginObjekti login;
+	//NaslovnaObjekti naslovna;
+	//LoginObjekti login;
 	
-	BaseTC baseTC = new BaseTC();
+	
 	
 	public static Logger log = LogManager.getLogger(base.class.getName());
+	
 	
 	
 	@BeforeTest
@@ -49,7 +51,7 @@ public class NaslovnaTest extends base {
 	@Test
 	public void Login() throws IOException
 	{	
-		
+		BaseTC baseTC = new BaseTC(driver);
 		baseTC.LoginSmoke();
 			
 
@@ -58,6 +60,8 @@ public class NaslovnaTest extends base {
 	@Test
 	public void Verifikacija() throws IOException
 	{		
+		NaslovnaObjekti naslovna = new NaslovnaObjekti(driver);
+		
 				Assert.assertEquals(naslovna.OdjavaDugme().getText(), "Odjava");
 				//verifikacija da se uhvati scrShot na test fail
 				Assert.assertEquals(naslovna.OdjavaDugme().getText(), "Odjava");
@@ -68,13 +72,16 @@ public class NaslovnaTest extends base {
 	@Test
 	public void Odjava()
 	{
+		BaseTC baseTC = new BaseTC(driver);
 		baseTC.LogOUT();
 	}
 	
+	/*
 	@AfterTest
 	public void closeBrowser()
 	{
 		driver.close();
 		driver=null;
 	}
+	*/
 }

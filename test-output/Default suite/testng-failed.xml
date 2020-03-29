@@ -5,8 +5,10 @@
     <classes>
       <class name="Academy.samsvojmajstor.NaslovnaTest">
         <methods>
-          <include name="LoginSmoke"/>
+          <include name="Login"/>
+          <include name="Verifikacija"/>
           <include name="initialize"/>
+          <include name="Odjava"/>
         </methods>
       </class> <!-- Academy.samsvojmajstor.NaslovnaTest -->
     </classes>

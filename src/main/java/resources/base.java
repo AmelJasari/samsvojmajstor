@@ -33,6 +33,8 @@ public class base {
 	
 	
 	
+	
+	
 	public WebDriver initializeDriver() throws IOException
 	
 	{
@@ -43,10 +45,10 @@ public class base {
 		prop.load(fis);
 		
 		//ovako direktno iz mvn komande
-		String browser =System.getProperty("browser");
+		//String browser =System.getProperty("browser");
 		
 		//ovako upisujemo u test, tj u property file
-		//String browser = prop.getProperty("browser");
+		String browser = prop.getProperty("browser");
 		
 		
 		if (browser.contains("chrome"))

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.529" tests="6" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="117.326" tests="5" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
     <property name="java.vm.version" value="25.201-b09"/>
-    <property name="browser" value="firefox"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\Amel\eclipse-workspace-kurs\samsvojmajstor"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -29,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\SeleniumProjekat1\Software\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Users\Amel\Downloads\Selenium\libs\geckodriver;C:\Program Files\Java\jdk1.8.0_201\bin;C:\SeleniumProjekat1\Software\apache-maven-3.6.3\bin;C:\SeleniumProjekat1\Software\apache-maven-3.6.3\bin;C:\Users\Amel\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_201\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Users\Amel\Downloads\Selenium\libs\geckodriver;C:\Program Files\Java\jdk1.8.0_201\bin;C:\SeleniumProjekat1\Software\apache-maven-3.6.3\bin;C:\SeleniumProjekat1\Software\apache-maven-3.6.3\bin;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Users\Amel\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_201\bin;;."/>
     <property name="maven.conf" value="C:\SeleniumProjekat1\Software\apache-maven-3.6.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -46,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=firefox"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,108 +64,266 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="LoginNegativni" classname="Academy.samsvojmajstor.Naslovna" time="7.007">
-    <failure message="The element reference of &lt;a href=&quot;/portal/user/login?destination=frontpage&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-TFUE92S&apos;, ip: &apos;10.1.1.177&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\Amel\AppData\Local\Temp\rust_mozprofile5p2mGZ, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=73.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5536.0, browserName=firefox, moz:buildID=20200217142647, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: d70c8d8c-cbcc-4064-b141-6f573f872e26" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
-The element reference of <a href="/portal/user/login?destination=frontpage"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DESKTOP-TFUE92S', ip: '10.1.1.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Amel\AppData\Local\Temp\rust_mozprofile5p2mGZ, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=73.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5536.0, browserName=firefox, moz:buildID=20200217142647, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: d70c8d8c-cbcc-4064-b141-6f573f872e26
-	at Academy.samsvojmajstor.Naslovna.LoginNegativni(Naslovna.java:43)
-]]></failure>
-    <system-err><![CDATA[1584112856373	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Amel\\AppData\\Local\\Temp\\rust_mozprofileENDnJL"
-1584112856373	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Amel\\AppData\\Local\\Temp\\rust_mozprofile5p2mGZ"
-1584112857193	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
-1584112857237	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
-1584112857784	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1584112857784	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1584112857785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1584112857785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1584112857873	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1584112857873	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1584112857873	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1584112857873	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1584112862400	Marionette	INFO	Listening on port 60755
-1584112862649	Marionette	INFO	Listening on port 60756
-Mar 13, 2020 4:21:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Mar 13, 2020 4:21:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-JavaScript warning: http://www.samsvojmajstor.com/portal/sites/default/files/js/js_260e85ba9bd3637bdb203dd8acd6f950.js, line 19: unreachable code after return statement
-JavaScript warning: http://www.samsvojmajstor.com/portal/sites/default/files/js/js_260e85ba9bd3637bdb203dd8acd6f950.js, line 19: unreachable code after return statement
-JavaScript warning: http://www.samsvojmajstor.com/portal/sites/default/files/js/js_4ddb840619208d47e5632fb55ee5a342.js, line 19: unreachable code after return statement
-Mar 13, 2020 4:21:17 PM org.openqa.selenium.remote.ErrorCodes toStatus
-INFO: HTTP Status: '404' -> incorrect JSON status mapping for 'stale element reference' (400 expected)
-]]></system-err>
-  </testcase>
-  <testcase name="LoginNegativni" classname="Academy.samsvojmajstor.Naslovna" time="13.625">
-    <failure message="Tried to run command without establishing a connection&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-TFUE92S&apos;, ip: &apos;10.1.1.177&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\Amel\AppData\Local\Temp\rust_mozprofile5p2mGZ, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=73.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5536.0, browserName=firefox, moz:buildID=20200217142647, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: d70c8d8c-cbcc-4064-b141-6f573f872e26&#10;*** Element info: {Using=id, value=edit-pass}" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
-Tried to run command without establishing a connection
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DESKTOP-TFUE92S', ip: '10.1.1.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Amel\AppData\Local\Temp\rust_mozprofile5p2mGZ, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=73.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5536.0, browserName=firefox, moz:buildID=20200217142647, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: d70c8d8c-cbcc-4064-b141-6f573f872e26
-*** Element info: {Using=id, value=edit-pass}
-	at Academy.samsvojmajstor.Naslovna.LoginNegativni(Naslovna.java:45)
+  <testcase name="LoginNegativni" classname="Academy.samsvojmajstor.Naslovna" time="33.827"/>
+  <testcase name="LoginNegativni" classname="Academy.samsvojmajstor.Naslovna" time="2.711"/>
+  <testcase name="Login" classname="Academy.samsvojmajstor.NaslovnaTest" time="12.08">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Academy.samsvojmajstor.NaslovnaTest.Login(NaslovnaTest.java:55)
 </failure>
-    <system-err><![CDATA[1584112891335	Marionette	INFO	Stopped listening on port 60755
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 22453
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585512804.502][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 29, 2020 10:13:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585512808.594][WARNING]: Timed out connecting to Chrome, retrying...
+[1585512816.954][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512817.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512817.164][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512817.268][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512817.373][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512817.481][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512817.586][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512817.710][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512817.817][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512817.921][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512818.028][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512818.132][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512818.240][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512818.348][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512818.454][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512818.558][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512818.665][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512818.772][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512818.882][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512819.071][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512819.181][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512819.384][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512819.489][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512819.807][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512819.911][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512820.019][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512820.131][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512820.236][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512820.340][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512820.450][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512820.558][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512820.668][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512820.772][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512820.878][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512820.992][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512821.147][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512821.251][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512821.358][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512821.469][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512821.573][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512821.681][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512821.788][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512821.895][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512821.998][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512822.104][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512822.213][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512822.319][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512822.423][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512822.533][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512822.635][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512822.742][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512822.845][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512822.951][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512823.069][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512823.173][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512823.281][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512823.384][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512823.488][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512823.593][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512823.701][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512823.805][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512823.910][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512824.016][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512824.122][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512824.226][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512824.331][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512824.435][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512824.541][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512824.648][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512824.757][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512825.195][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512825.298][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512825.401][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512825.505][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512825.610][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512825.715][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512825.819][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512825.926][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512826.036][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512826.141][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512826.246][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512826.355][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512826.459][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512826.564][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512826.673][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512826.784][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512826.889][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512826.999][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512827.107][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512827.216][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512827.326][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512827.430][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512827.576][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512827.680][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512827.784][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512827.900][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512828.005][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512828.113][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512828.219][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512828.325][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512828.429][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512828.535][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512828.643][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512828.749][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512828.856][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512828.962][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512829.066][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512829.172][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512829.288][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512829.396][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512829.504][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512829.613][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512829.718][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512829.828][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512829.932][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512830.049][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512830.155][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512830.263][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512830.368][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512830.479][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512830.583][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512830.685][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512830.795][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512830.901][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512831.008][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512831.281][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512831.445][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512831.550][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512831.654][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512831.764][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512831.870][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512831.978][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512832.082][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512832.188][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512832.299][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512832.528][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512832.638][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512832.764][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512832.868][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512832.973][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512833.082][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512833.187][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512833.300][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512833.407][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512833.511][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512833.629][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512833.744][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512833.849][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512833.961][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512834.068][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512834.176][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512834.284][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512834.388][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512834.500][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512834.621][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512834.732][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512834.840][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512834.951][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512835.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512835.161][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512835.269][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512835.384][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512835.488][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512835.599][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512835.710][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512835.818][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512836.145][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512836.248][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512836.353][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512836.465][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512836.576][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512836.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512836.803][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512836.915][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512837.136][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512837.238][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512837.342][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512837.449][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512837.561][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512837.678][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512837.791][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512837.903][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512838.010][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512838.116][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512838.222][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512838.329][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512838.437][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512838.545][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512838.649][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512838.757][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512838.872][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512838.978][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512839.085][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512839.192][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512839.297][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512839.402][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512839.510][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512839.616][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512839.720][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512839.831][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512839.940][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512840.048][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512840.154][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512840.259][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512840.369][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512840.481][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512840.592][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512840.709][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512840.813][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512840.919][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512841.034][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512841.906][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512842.009][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512842.115][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512842.219][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512842.323][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512842.429][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512842.609][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585512842.948][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
   </testcase>
-  <testcase name="LoginNegativni" classname="Academy.samsvojmajstor.Naslovna" time="13.641">
-    <failure message="Tried to run command without establishing a connection&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-TFUE92S&apos;, ip: &apos;10.1.1.177&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\Amel\AppData\Local\Temp\rust_mozprofile5p2mGZ, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=73.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5536.0, browserName=firefox, moz:buildID=20200217142647, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: d70c8d8c-cbcc-4064-b141-6f573f872e26" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
-Tried to run command without establishing a connection
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DESKTOP-TFUE92S', ip: '10.1.1.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Amel\AppData\Local\Temp\rust_mozprofile5p2mGZ, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=73.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5536.0, browserName=firefox, moz:buildID=20200217142647, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: d70c8d8c-cbcc-4064-b141-6f573f872e26
-</failure>
-  </testcase>
-  <testcase name="LoginSmoke" classname="Academy.samsvojmajstor.NaslovnaTest" time="1.657">
-    <failure message="The element reference of &lt;input id=&quot;edit-submit&quot; class=&quot;form-submit&quot; name=&quot;op&quot; type=&quot;submit&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-TFUE92S&apos;, ip: &apos;10.1.1.177&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\Amel\AppData\Local\Temp\rust_mozprofile5p2mGZ, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=73.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5536.0, browserName=firefox, moz:buildID=20200217142647, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: d70c8d8c-cbcc-4064-b141-6f573f872e26" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
-The element reference of <input id="edit-submit" class="form-submit" name="op" type="submit"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DESKTOP-TFUE92S', ip: '10.1.1.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Amel\AppData\Local\Temp\rust_mozprofile5p2mGZ, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=73.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5536.0, browserName=firefox, moz:buildID=20200217142647, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: d70c8d8c-cbcc-4064-b141-6f573f872e26
-	at Academy.samsvojmajstor.NaslovnaTest.LoginSmoke(NaslovnaTest.java:60)
-]]></failure>
-    <system-err><![CDATA[JavaScript warning: http://www.samsvojmajstor.com/portal/sites/default/files/js/js_260e85ba9bd3637bdb203dd8acd6f950.js, line 19: unreachable code after return statement
-Mar 13, 2020 4:21:19 PM org.openqa.selenium.remote.ErrorCodes toStatus
-INFO: HTTP Status: '404' -> incorrect JSON status mapping for 'stale element reference' (400 expected)
-]]></system-err>
-  </testcase>
-  <testcase name="Verifikacija" classname="Academy.samsvojmajstor.NaslovnaTest" time="11.413">
-    <failure message="Unable to locate element: Odjava&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-TFUE92S&apos;, ip: &apos;10.1.1.177&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\Amel\AppData\Local\Temp\rust_mozprofile5p2mGZ, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=73.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5536.0, browserName=firefox, moz:buildID=20200217142647, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: d70c8d8c-cbcc-4064-b141-6f573f872e26&#10;*** Element info: {Using=link text, value=Odjava}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: Odjava
+  <testcase name="Odjava" classname="Academy.samsvojmajstor.NaslovnaTest" time="10.136">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Odjava&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-TFUE92S&apos;, ip: &apos;10.1.1.177&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\Amel\AppData\Local\Temp\scoped_dir13632_1666504057}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54379}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]&#10;Session ID: 9142939811fb070027f6fdea25c70f79&#10;*** Element info: {Using=link text, value=Odjava}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Odjava"}
+  (Session info: chrome=80.0.3987.149)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-TFUE92S', ip: '10.1.1.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Amel\AppData\Local\Temp\rust_mozprofile5p2mGZ, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=73.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5536.0, browserName=firefox, moz:buildID=20200217142647, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: d70c8d8c-cbcc-4064-b141-6f573f872e26
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\Amel\AppData\Local\Temp\scoped_dir13632_1666504057}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54379}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: 9142939811fb070027f6fdea25c70f79
 *** Element info: {Using=link text, value=Odjava}
-	at Academy.samsvojmajstor.NaslovnaTest.Verifikacija(NaslovnaTest.java:74)
+	at Academy.samsvojmajstor.NaslovnaTest.Odjava(NaslovnaTest.java:76)
 </failure>
-    <system-err><![CDATA[JavaScript warning: http://www.samsvojmajstor.com/portal/sites/default/files/js/js_4ddb840619208d47e5632fb55ee5a342.js, line 19: unreachable code after return statement
-]]></system-err>
   </testcase>
-  <testcase name="close" classname="Academy.samsvojmajstor.Naslovna" time="13.641">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at Academy.samsvojmajstor.Naslovna.close(Naslovna.java:80)
+  <testcase name="Verifikacija" classname="Academy.samsvojmajstor.NaslovnaTest" time="10.054">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Odjava&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-TFUE92S&apos;, ip: &apos;10.1.1.177&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\Amel\AppData\Local\Temp\scoped_dir13632_1666504057}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54379}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]&#10;Session ID: 9142939811fb070027f6fdea25c70f79&#10;*** Element info: {Using=link text, value=Odjava}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Odjava"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-TFUE92S', ip: '10.1.1.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\Amel\AppData\Local\Temp\scoped_dir13632_1666504057}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54379}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: 9142939811fb070027f6fdea25c70f79
+*** Element info: {Using=link text, value=Odjava}
+	at Academy.samsvojmajstor.NaslovnaTest.Verifikacija(NaslovnaTest.java:65)
 </failure>
   </testcase>
 </testsuite>

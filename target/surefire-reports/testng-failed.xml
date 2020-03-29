@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+<suite verbose="0" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="Academy.samsvojmajstor.Listeners"/>
     <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
-  <test name="NaslovnaTest(failed)" parallel="tests">
+  <test name="NaslovnaTest(failed)">
     <classes>
       <class name="Academy.samsvojmajstor.NaslovnaTest">
         <methods>
+          <include name="Login"/>
           <include name="Verifikacija"/>
-          <include name="closeBrowser"/>
-          <include name="LoginSmoke"/>
           <include name="initialize"/>
+          <include name="Odjava"/>
         </methods>
       </class> <!-- Academy.samsvojmajstor.NaslovnaTest -->
       <class name="Academy.samsvojmajstor.Naslovna">
